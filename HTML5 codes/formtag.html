@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+
+</head>
+<body>
+    <!-- form me action aur method two properties hain action me form me safe krwanay k liay wo scripting  -->
+    <!-- use krtay hain unki file ka path dia jata hai abhi k liay khali chor rhay hain  -->
+    <!--method jo hai wo jo file di jati hai usme bhejne ka tareeka poochta hai aik houta hai get aur aik hota hai post abhi k liay isko chor den !   -->
+    <!-- label special tag hai to write the field names  -->
+    <p>Sign Up Form</p>
+    <form action="" , method="" >
+        <fieldset>
+            <legend>Sign up Form </legend>
+            <!-- input tag k liay aik attribute houta hai placeholder aur aik value by default koi value assign krni ho tou value use krte hain aur placeholder describe krta hai k apne enter kia krna hai  -->
+            <label for="">Name</label> <input type="text" name="fname" id="" placeholder="Shahzaneer Ahmed"><br><br>
+            <label for="">Password</label> <input type="password" name="" id=""><br><br>
+            <!-- radio button lgatay waqt inka name same rkhna hai takay form mehiz aik hi kre select -->
+            <!-- laber me for se murad hai k yeh label kis k liay hai , jo label me dengay usse input ki property id me dena hai iska faida hoga k label pe click kr k bhi radio button ki activity ko access kia jaskta hai   -->
+            <label for="">Gender</label> <input type="radio" name="gender", id="male"> <label for="male">Male</label> <input type="radio" name="gender" id="female" > <label for="female">Female</label> <br><br>
+            <!-- checkbox me app aik se zyada select krskte ho for aur id wala concept isme bhi implement hoga -->
+            <label for="">Hobbies</label> <input type="checkbox" id="cricket"><label for="cricket">Cricket</label> <input type="checkbox" id="hockey"><label for="hockey">Hockey</label> <input type="checkbox" id="bookreading"><label for="bookreading">Book Reading</label> <input type="checkbox" id="gaming"><label for="gaming">Gaming</label> <br><br>
+            <!-- rows se height barhaygi aur cols se width baregi -->
+            <label for="">Message</label> <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            <!-- select box me cheezon ko scroll button ki trh select krne k option houts hai isme option tag use houta hai aur jitne bhi options houte hain hamaray usme diay jatay hain -->
+            <!-- size ka mtlb hai k at a time utne hi options safe hongay multiple ka mtlb hai k ai kse zyada values ko choose kia jaaskta hai  -->
+            <label for="">Country</label> <select name="" id="" size="1">
+                                            <option value="">Pakistan</option>
+                                            <option value="">India</option>
+                                            <option value="">China</option>
+                                            <option value="" selected>Turkey</option>
+                                            </select><br> <br>
+                                            <!-- opt group use houta hai ager humne selection k ander bhi do ya zyada list banani hon  -->
+            <label for="">Immigration</label> <select name="" id="">
+                                                                <optgroup label=Europe></optgroup>
+                                                                    <option value="">Germany</option>
+                                                                    <option value="">England</option>
+                                                                    <option value="">Belgium</option>
+                                                                <optgroup label="Asia"></optgroup>
+                                                                <option value="">Japan</option>
+                                                                <option value="">Malayshia</option>
+                                                                <option value="">Thailand</option>    
+
+
+
+                                                                 </select> 
+            <br><br>
+            <!-- data list tag aik new tag hai isme hum khud likh bhi skte hain jo select krna hai aur choose bhi krstke hain  -->
+            <label for="">Cars</label> <input list="cars" >
+                                       <datalist id="cars">
+                                            <option value="Innova">
+                                            <option value="buggati">
+                                            <option value="Desire">
+                                            <option value="Sportage">        
+                                       </datalist>
+                                       <br><br>
+                                       <!-- yahan accept property bhi hai k ager koi chahay k mehiz image hi select hosakay tou accept yun use hoga -->
+            <label for="">Upload file</label> <input type="file" accept="image/*"> <br> <br>
+            <!-- submit input type hai isme aik property hai value naam ki jisme ap submit button ko name deskte hain  -->
+            <input type="submit" value="Save"> 
+           <!-- aik button type bhi hai jo mehiz javascript k liay use hotih ai  -->
+           <input type="button" value="Clickme">
+           <!-- reset krne k liay reset type bhi hai  -->
+           <input type="reset">
+           <!-- ager apne image ko button banana ho tou wo bhi possible hai -->
+           
+
+                                                           
+                                                                 
+
+
+                                                                
+                                                            
+
+
+
+
+
+
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
