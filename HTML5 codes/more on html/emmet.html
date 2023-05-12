@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Emmet aik software plugin hai jo html ko short hand k through use krwata hai for speedy coding experience -->
+  </head>
+  <body>
+    <a href="https://emmet.io/"> Emmet Documentation</a>
+    
+    <!-- Siblings -->
+    `section+article`
+
+    <section></section>
+    <article></article>
+
+    <!-- Data in the tag -->
+    `h1{Shahzaneer Ahmed}`
+    <h1>Shahzaneer Ahmed</h1>
+
+    <!-- Parent scenes -->
+use this syntax to create a table `table>(tr>td*3)*3`
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <!-- is trh kam mehnat se aur khobsorti hai ap banlengay html structuring -->
+    </table>
+
+    <!-- id and classes -->
+    p#shah{shahzaneer ahmed}
+    <p id="shah">shahzaneer ahmed</p>
+    p.pti{PakistanTehreek e Insaaf}
+    <p class="pti">PakistanTehreek e Insaaf</p>
+
+    p.shah.ahmed.ravi.cui.mern
+    <p class="shah ahmed ravi cui mern"></p>
+
+    p#id1#id2
+    <!-- chunkay ID aik hi hua krti hai aur cascade krte huay hogi yani last wali li jayegi -->
+    <p id="id2"></p>
+<!-- Div -> yeh hai simple container hai -->
+    .wrapper
+    <div class="wrapper"></div>
+
+    <!-- Giving Ids to childs in case of multiple using $ -->
+    ol>li#list$*5{item #$}
+
+    <ol>
+        <li id="list1">item #1</li>
+        <li id="list2">item #2</li>
+        <li id="list3">item #3</li>
+        <li id="list4">item #4</li>
+        <li id="list5">item #5</li>
+    </ol>
+
+
+
+
+
+  </body>
+</html>
