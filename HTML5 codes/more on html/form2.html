@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Job Application</h2>
+    <form action="">
+      <formfield>
+        <label for="name">Name</label><input type="text" id="name" />
+        <br /><br />
+        <label for="email">Email</label><input type="email" id="email" />
+        <br /><br />
+        <label for="phone">Phone</label><input type="tel" id="phone" />
+        <br /><br />
+        <label for="resume">Resume</label><input type="file" id="file" required multiple/>
+        <br /><br />
+        <label for="experience">Experience</label>
+        <input type="number" name="experience" id="experience" min="1" max="50">
+        <br /><br />
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="html">HTML</label><input type="checkbox" name="checkbox1" id="html"><br><br>
+            <label for="css">CSS</label><input type="checkbox" name="checkbox2" id="css"><br><br>
+            <label for="js">Js</label><input type="checkbox" name="checkbox3" id="js"><br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>availability</legend>
+            <input type="radio" name="avail" id=""> <label for="">Full time</label>
+            <input type="radio" name="avail" id=""> <label for="">Part time</label>
+        </fieldset>
+
+        <br><br>
+        <label for="txtarea"></label>
+        <textarea name="" id="txtarea" cols="30" rows="10"></textarea>
+      </formfield>
+    </form>
+  </body>
+</html>
